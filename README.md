@@ -106,7 +106,8 @@ yarn lerna add package-b --scope=package-a
 
 you can also use the yarn command, but you will need to provide the package-b version :
 
-```
+```sh
+# yarn workspace package-a add package-b@^{version}
 yarn workspace @test/server add @test/math@^0.0.0
 ```
 
