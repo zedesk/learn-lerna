@@ -44,3 +44,16 @@ yarn commitizen init cs-conventional-changelog -D -E
 this could take a while
 
 then you can delete the .yarnrc file
+
+Great you can create then the first commit :
+
+```
+g add lerna.json package.json yarn.lock README.md .gitignore packages/.gitkeep
+g cz
+```
+
+the `g cz` will ask you some question :
+
+- the type of your commit, here chore
+- the scope of the commit, that we leave blank
+- a short description
