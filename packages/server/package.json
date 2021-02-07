@@ -1,6 +1,6 @@
 {
   "name": "@test/server",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "main": "index.js",
   "author": "Fabrice",
   "license": "MIT",
@@ -8,7 +8,7 @@
     "test": "echo 'there is not test here!'"
   },
   "dependencies": {
-    "@test/greetings": "^0.1.0",
-    "@test/math": "^0.0.0"
+    "@test/greetings": "^0.2.0",
+    "@test/math": "^0.2.0"
   }
 }
