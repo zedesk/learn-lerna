@@ -1,6 +1,5 @@
 {
   "name": "learning-lerna",
-  "version": "independent",
   "private": true,
   "workspaces": [
     "packages/*"
