@@ -95,3 +95,23 @@ yarn release
 This script is register in the global`package.json` and do `lerna version --conventional-commits`
 
 The command will create a CHANGELOG file into each packages.
+
+## adding a package as dependency
+
+to add in the package-a a dependency to package-b, you should use the following command
+
+```
+yarn lerna add package-b --scope=package-a
+```
+
+you can also use the yarn command, but you will need to provide the package-b version :
+
+```
+yarn workspace @test/server add @test/math@^0.0.0
+```
+
+or if in the @test/server package
+
+```
+yarn add @test/math@^0.0.0
+```
