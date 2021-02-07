@@ -79,3 +79,17 @@ cd packages
 take server
 yarn init -y
 ```
+
+## release
+
+It's now time to publish our first release.
+
+To do so, you should already push your project to a remte repository as Gitlab, GitHub...
+
+This could be simply done with the command
+
+```
+yarn release
+```
+
+This script is register in the global`package.json` and do `lerna version --conventional-commits`
