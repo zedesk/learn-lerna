@@ -6,10 +6,11 @@
   ],
   "devDependencies": {
     "@octokit/core": "^3.2.5",
-    "cs-conventional-changelog": "^1.0.8",
     "commitizen": "^4.2.3",
+    "cs-conventional-changelog": "^1.0.8",
     "jest": "^26.6.3",
-    "lerna": "^3.22.1"
+    "lerna": "^3.22.1",
+    "lerna-changelog": "^1.0.1"
   },
   "dependencies": {},
   "config": {
