@@ -7,15 +7,20 @@
   ],
   "devDependencies": {
     "@octokit/core": "^3.2.5",
+    "cs-conventional-changelog": "^1.0.8",
     "commitizen": "^4.2.3",
+    "jest": "^26.6.3",
     "lerna": "^3.22.1"
   },
-  "dependencies": {
-    "cs-conventional-changelog": "^1.0.8"
-  },
+  "dependencies": {},
   "config": {
     "commitizen": {
       "path": "./node_modules/cs-conventional-changelog"
     }
+  },
+  "scripts": {
+    "test": "lerna run test --stream",
+    "test:since": "lerna run test --since",
+    "release": "lerna version --conventional-commits"
   }
 }
