@@ -93,3 +93,5 @@ yarn release
 ```
 
 This script is register in the global`package.json` and do `lerna version --conventional-commits`
+
+The command will create a CHANGELOG file into each packages.
