@@ -1,0 +1,21 @@
+{
+  "name": "learning-lerna",
+  "version": "independent",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@octokit/core": "^3.2.5",
+    "commitizen": "^4.2.3",
+    "lerna": "^3.22.1"
+  },
+  "dependencies": {
+    "cs-conventional-changelog": "^1.0.8"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cs-conventional-changelog"
+    }
+  }
+}
