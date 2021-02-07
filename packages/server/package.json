@@ -1,10 +1,14 @@
 {
-  "name": "server",
+  "name": "@test/server",
   "version": "0.1.0",
   "main": "index.js",
   "author": "Fabrice",
   "license": "MIT",
   "scripts": {
     "test": "echo 'there is not test here!'"
+  },
+  "dependencies": {
+    "@test/greetings": "^0.1.0",
+    "@test/math": "^0.0.0"
   }
 }
