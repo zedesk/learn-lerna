@@ -57,3 +57,25 @@ the `g cz` will ask you some question :
 - the type of your commit, here chore
 - the scope of the commit, that we leave blank
 - a short description
+
+## Create sub projects
+
+Great as we have initialize lerna and conventional commits, we can now create our first subprojects.
+
+### with lerna
+
+```
+yarn lerna create @test/greetings greetings
+```
+
+lerna will the create a sub package with a template
+
+### A more flexible way
+
+You can also create a package manually :
+
+```
+cd packages
+take server
+yarn init -y
+```
